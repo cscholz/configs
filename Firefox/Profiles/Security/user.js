@@ -121,6 +121,14 @@ user_pref("browser.send_pings",					false);
 // http://kb.mozillazine.org/Browser.send_pings.require_same_host
 user_pref("browser.send_pings.require_same_host",		true);
 
+// PREF: set blank start page
+user_pref("browser.startup.homepage;about:home",                
+"about:home");
+
+// PREF: disable warning if multiple tabs are closed on close
+user_pref("browser.tabs.warnOnCloseOtherTabs",                  false);
+user_pref("browser.tabs.warnOnClose",                           false);
+
 // PREF: Disable IndexedDB (disabled)
 // https://developer.mozilla.org/en-US/docs/IndexedDB
 // https://en.wikipedia.org/wiki/Indexed_Database_API
