@@ -1,7 +1,9 @@
 <snippet>
   <content><![CDATA[
 #!/usr/bin/env bash
-# ${1:What is the code for}
+
+# Version: 		${1:YYYMMDD-x}
+# Description:	${2:What is the code for}
 
 set -euo pipefail
 # -e: exit immidiately when a command fails. If piped check only the last command error code.
@@ -15,4 +17,3 @@ set -euo pipefail
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.shell</scope>
 </snippet>
-
