@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+#!/usr/bin/env bash
+# ${1:What is the code for}
+
+set -euo pipefail
+# -e: exit immidiately when a command fails. If piped check only the last command error code.
+#     Use ||true for commands allowed to fail.
+# -u: treat unset variable as an error and exit immidiately
+# -o pipefail: same as -e but for all commands in a pipe.
+# -x: debug option
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>binbash</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.shell</scope>
+</snippet>
+
