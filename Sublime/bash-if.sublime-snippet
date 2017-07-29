@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-if [[ ${1:variableA} = ${2:variableB}]]; then
-  <code>
+if [[ "\${${1:variableA}\}" = "\${${2:variableB}\}" ]]; then
+  ${3:<code>}
 else
-  <code>
+  ${4:<code>}
 fi
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

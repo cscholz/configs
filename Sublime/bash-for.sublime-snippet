@@ -2,7 +2,7 @@
   <content><![CDATA[
 for ${1:variable_name} in \$(${2:some_command})
 do
-  echo \${${1/\*//}}
+  echo "\${${1/\*//}}"
 done
 
 ]]></content>
