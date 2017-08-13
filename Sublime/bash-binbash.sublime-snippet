@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 #!/usr/bin/env bash
+Version=${1:YYYMMDD.x}
 
-# Version: 		${1:YYYMMDD-x}
 # Description:	${2:What is the code for}
 
 set -euo pipefail
